@@ -34,20 +34,21 @@ I start the PostgreSQL and pgAdmin containers in the background, and access the 
 ![image](https://user-images.githubusercontent.com/115103788/211952064-ec3714d7-1751-4e3c-ac17-f8815643223c.png)
 ![image](https://user-images.githubusercontent.com/115103788/211952079-ec744499-98fa-4896-930a-aac7d92faaa9.png)
 
-###### Step 3. Execute an interactive bash shell on the downloaded container using the following command:
+### Zoho Analytics On-Premise
+###### Execute an interactive bash shell on the downloaded container using the following command:
         sudo docker exec -it projet_zohoanalytics-Web-1 bash
 ![image](https://user-images.githubusercontent.com/115103788/211643178-a5d963bf-7538-45b1-8977-e8aecde4f5a6.png)
 
-###### Step 4. Before starting the application, switch to the Zoho/Analytics/bin repository. cd Zoho/ cd Analytics/ cd bin/
+###### Before starting the application, switch to the Zoho/Analytics/bin repository. cd Zoho/ cd Analytics/ cd bin/
 ![image](https://user-images.githubusercontent.com/115103788/211643408-5b998285-2e56-4614-8542-56d8c44ddba3.png)
 
-###### Step 5. Start Zoho Analytics On-Premise using the command: 
+###### Start Zoho Analytics On-Premise using the command: 
         nohup sh app_ctl.sh run &
 ![image](https://user-images.githubusercontent.com/115103788/211643492-4e9416d5-355f-46aa-b39c-1a1cd4d7ddd9.png)
 
-###### Step 6. Once the application has started, you can access the application from a web-browser using the following URL https://serverIPaddress:8443.
+###### Once the application has started, you can access the application from a web-browser using the following URL https://serverIPaddress:8443.
         https://serverIPaddress:8443. Important : Please be patient, it takes some time (2 à 3 minutes) to start the server.
-###### Step 7. Use the following credentials in the screen that appears to login to Zoho Analytics On-Premise the default password upon login is :
+###### Use the following credentials in the screen that appears to login to Zoho Analytics On-Premise the default password upon login is :
     Username: admin
     Password: admin
 ![image](https://user-images.githubusercontent.com/115103788/211643664-3d8e9beb-6af1-4348-a9b0-5c4a001b2357.png)
@@ -63,5 +64,5 @@ I start the PostgreSQL and pgAdmin containers in the background, and access the 
 
 ![image](https://user-images.githubusercontent.com/115103788/211647626-1809e348-2c13-4648-80f7-461c3f0cb732.png)
 
-###### Step 8. To stop the application, use the following command:
+###### To stop the application, use the following command:
        sh app_ctl.sh shutdown
