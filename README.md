@@ -1,4 +1,4 @@
-# Projet Final Docker/BI : Zoho Analytics On-Premise , 
+# Projet Final Docker/BI : Zoho Analytics On-Premise.
 
 ## Projet Zoho Analytics On-premise, Postgres and pgadmin
 
