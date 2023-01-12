@@ -2,7 +2,7 @@
 
 ## Projet Zoho Analytics On-premise, Postgres and pgadmin
 
-### 1. Objectif of project 
+### 1. Objectif of project. 
 
 The objective of mon project is to use a Busness intelligence solution Zoho Analytics On-Promise and connecting it at a RDBMS containing a database (Postgres) via Docker to do the containerization.
 
@@ -12,22 +12,22 @@ The objective of mon project is to use a Busness intelligence solution Zoho Anal
 
 --> PGAdmin is a web-based Graphical User Interface (GUI) management application used to communicate with Postgres and derivative relational databases on both local and remote servers.
 
-### 2. Architecture
+### 2. Architecture.
 
 This image represents my architecture that I used for the realization of mon project. Indeed, I used Zoho Analytics On-Premose, Postgres and PgAdmin linked via a docker-compose.yml file on a microsoft azure virtual machine. I then, using the Zoho Analytics On-premise, visualized the data from I database in Postgres.
 ![image](https://user-images.githubusercontent.com/115103788/212050867-59c8939c-0207-40d8-84ee-541649408861.png)
 
 ### 3. Steps to deploy Zoho Analytics On-Premise, Postgres and pgAdmin
 
-###### Step 1. Launch docker compose .yml: 
+######      - Step 1. Launch docker compose .yml: 
        Sudo docker-compose -f Docker-compose.yml up -d
 ![image](https://user-images.githubusercontent.com/115103788/211642843-8beb1ae3-e286-409a-9a91-0842d6c35936.png)
 
-###### Step 2. Check the containers that are running using the following command: 
+######      - Step 2. Check the containers that are running using the following command: 
         docker ps
 ![image](https://user-images.githubusercontent.com/115103788/211643113-77462843-2cf4-4093-bc9f-19f48a152f9f.png)
 
-### 3.1 Steps to deploy Postgres and pgAdmin
+### Deploy Postgres and pgAdmin
 
 ###### Step 3. Execute an interactive bash shell on the downloaded container using the following command:
         sudo docker exec -it projet_zohoanalytics-Web-1 bash
