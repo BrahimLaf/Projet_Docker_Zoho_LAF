@@ -19,15 +19,20 @@ This image represents my architecture that I used for the realization of mon pro
 
 ### 3. Steps to deploy Zoho Analytics On-Premise, Postgres and pgAdmin
 
-######      - Step 1. Launch docker compose .yml: 
+   ###### - Step 1. Launch docker compose .yml: 
        Sudo docker-compose -f Docker-compose.yml up -d
 ![image](https://user-images.githubusercontent.com/115103788/211642843-8beb1ae3-e286-409a-9a91-0842d6c35936.png)
 
-######      - Step 2. Check the containers that are running using the following command: 
+   ###### - Step 2. Check the containers that are running using the following command: 
         docker ps
 ![image](https://user-images.githubusercontent.com/115103788/211643113-77462843-2cf4-4093-bc9f-19f48a152f9f.png)
 
 ### Deploy Postgres and pgAdmin
+
+I start the PostgreSQL and pgAdmin containers in the background, and access the pgAdmin web interface by opening a web browser and navigating to =(https://serverIPaddress:6081). 
+
+![image](https://user-images.githubusercontent.com/115103788/211952064-ec3714d7-1751-4e3c-ac17-f8815643223c.png)
+![image](https://user-images.githubusercontent.com/115103788/211952091-f19152fc-af20-4b5d-a690-0da535dff6c9.png)
 
 ###### Step 3. Execute an interactive bash shell on the downloaded container using the following command:
         sudo docker exec -it projet_zohoanalytics-Web-1 bash
@@ -46,12 +51,7 @@ This image represents my architecture that I used for the realization of mon pro
     Username: admin
     Password: admin
 ![image](https://user-images.githubusercontent.com/115103788/211643664-3d8e9beb-6af1-4348-a9b0-5c4a001b2357.png)
-
-![image](https://user-images.githubusercontent.com/115103788/211952064-ec3714d7-1751-4e3c-ac17-f8815643223c.png)
-
 ![image](https://user-images.githubusercontent.com/115103788/211952079-ec744499-98fa-4896-930a-aac7d92faaa9.png)
-![image](https://user-images.githubusercontent.com/115103788/211952091-f19152fc-af20-4b5d-a690-0da535dff6c9.png)
-
 ![image](https://user-images.githubusercontent.com/115103788/211952104-0ef6d8e3-0b1d-4105-ab0c-94e62e2c6509.png)
 ![image](https://user-images.githubusercontent.com/115103788/211952112-67d21d54-4c28-4a31-85ff-24f85800cb31.png)
 
