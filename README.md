@@ -45,6 +45,16 @@ This image represents my architecture that I used for the realization of mon pro
     Password: admin
 ![image](https://user-images.githubusercontent.com/115103788/211643664-3d8e9beb-6af1-4348-a9b0-5c4a001b2357.png)
 
+![image](https://user-images.githubusercontent.com/115103788/211952064-ec3714d7-1751-4e3c-ac17-f8815643223c.png)
+
+![image](https://user-images.githubusercontent.com/115103788/211952079-ec744499-98fa-4896-930a-aac7d92faaa9.png)
+![image](https://user-images.githubusercontent.com/115103788/211952091-f19152fc-af20-4b5d-a690-0da535dff6c9.png)
+
+![image](https://user-images.githubusercontent.com/115103788/211952104-0ef6d8e3-0b1d-4105-ab0c-94e62e2c6509.png)
+![image](https://user-images.githubusercontent.com/115103788/211952112-67d21d54-4c28-4a31-85ff-24f85800cb31.png)
+
+![image](https://user-images.githubusercontent.com/115103788/211952127-70962e01-9d09-4efa-beb4-62f1c5cc14d9.png)
+![image](https://user-images.githubusercontent.com/115103788/211952141-0759fdad-0cf4-4843-9b04-9b65ffaf58cc.png)
 
 ![image](https://user-images.githubusercontent.com/115103788/211643721-810b07e4-0ce3-4b18-97fd-a8a98ef4d31d.png)
 
